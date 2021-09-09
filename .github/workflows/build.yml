@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: install dependency
-      run: \
+      run: |
         apt install libncurses-dev -y
         apt install cpio -y
         apt install rsync -y
