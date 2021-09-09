@@ -23,4 +23,4 @@ jobs:
         sudo apt install gcc-multilib -y
         sudo apt install g++-multilib -y
     - name: make
-      run: sudo make
+      run: make
