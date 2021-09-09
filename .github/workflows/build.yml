@@ -26,5 +26,6 @@ jobs:
       run: |
         gcc --version
         g++ --version
+        make --version
     - name: make
       run: make
