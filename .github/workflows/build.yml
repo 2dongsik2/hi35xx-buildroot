@@ -29,7 +29,9 @@ jobs:
         make --version
     - name: make
       run: make
+    - name: compress
+      run: tar -zvcf output.tar.gz output
     - uses: actions/upload-artifact@v2
       with:
         name: output
-        path: output/
+        path: output.tar.gz
